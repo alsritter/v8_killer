@@ -1,12 +1,12 @@
-# We have built-in default values for identifiers, but if you manually specify identifiers,
-# we will not use the default values. So please ensure that you have **defined complete identifiers**.
+# 我们有内置的标识符默认值,但如果您手动指定标识符,
+# 我们将不使用默认值。因此请确保您已经**定义了完整的标识符**。
 [identifiers]
-# There are two types of identifier:
-# One is `symbol`, which automatically looks up the target function based on the symbol table;
-# The other is `rva`, which directly specifies the function's RVA.
-# Below, I provide their respective syntax.
+# 有两种类型的标识符:
+# 一种是 "symbol",它会根据符号表自动查找目标函数;
+# 另一种是 "rva",它直接指定函数的RVA。
+# 下面,我提供了它们各自的语法。
 
-# The type of identifiers is an array, and we will match functions based on the order in the array.
+# 标识符的类型是一个数组，我们会按照数组中的顺序匹配函数。
 
 #V8_SCRIPT_COMPILER_COMPILE_FUNCTION_INTERNAL = [{ type = "symbol", symbols = [
 #    """_ZN2v814ScriptCompiler23CompileFunctionInternalENS_5LocalINS_\
